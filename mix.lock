@@ -1,0 +1,1 @@
+%{"exagent": {:git, "git@github.com:oarrabi/ex_agent.git", "780d6bd259c80bb84f133d11f94f66465fa7bcb5", [tag: "0.1.0"]}}
