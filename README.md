@@ -1,19 +1,24 @@
 # ExagentPingPong
 
-**TODO: Add description**
+[ExAgent](https://github.com/nsomar/ex_agent_ping_pong) Ping Pong agent sample app.
 
-## Installation
+## Running the sample
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exagent_ping_pong` to your list of dependencies in `mix.exs`:
+To run the sample, follow these steps:
 
-```elixir
-def deps do
-  [{:exagent_ping_pong, "~> 0.1.0"}]
-end
+1) Clone the repository and cd to the folder
+
+```
+git clone https://github.com/nsomar/ex_agent_ping_pong
+cd ex_agent_ping_pong
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exagent_ping_pong](https://hexdocs.pm/exagent_ping_pong).
+2) Fetch the dependencies:
+```elixir
+mix deps.get
+```
 
+3) Run the agent:
+```elixir
+mix run_agent
+```
